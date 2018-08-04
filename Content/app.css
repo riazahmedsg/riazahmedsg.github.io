@@ -1,0 +1,28 @@
+/* your custom CSS goes here */
+/* File name:           app.css                   
+Author's name:          Riaz Ahmed 
+Student ID              300759573   
+Website Name        
+Assignment # 3          Mini Portfolio – JSON Data & AJAX Components      
+file description:       contains custom CSS   */
+
+main {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+nav {
+  opacity: 0.8;
+}
+
+#extraNav {
+ min-height: 40px;
+}
+#detail1,#detail2,#detail3{
+  text-align: justify;
+}
+footer{
+  font-size: small;
+  text-align: justify;
+  
+}

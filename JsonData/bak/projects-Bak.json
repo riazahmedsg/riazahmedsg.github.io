@@ -1,0 +1,15 @@
+{
+    "Projects": [{
+            "name": "Patient Care App",
+            "detail": "Tracking the progress of physicians being trained in bedside ultrasound is critical to ensure accurate diagnosis and quality patient care. Modern Hospital’s IMBUS Program has streamlined this process, improving the accuracy and efficiency of the training process with a custom solution created using the FileMaker Platform."
+        },
+        {
+            "name": "Summer Snow Juice App",
+            "detail": "Family farm uses custom app to manage sales, production, and employee scheduling. Fewer bookkeeping errors and production efficiency gains give Summer Snow Juice a competitive edge. Today the app does the administrative work of three full-time employees, allowing the company’s office staff to stay the same size despite a 7x increase in production output."
+        },
+        {
+            "name": "Project Management App",
+            "detail": "Our client replaces ad-hoc mix of spreadsheets, paper, and packaged software offerings with three custom apps built on the FileMaker Platform. The apps manage incoming pitches, calendars, project management, and client ad approvals. It reduced operational costs. Custom app helps our client save $405k annually in operating costs."
+        }
+    ]
+}
