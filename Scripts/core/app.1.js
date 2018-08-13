@@ -57,8 +57,6 @@
         if (this.readyState === 4) {
           projects = JSON.parse(this.responseText)
           console.log('Project Data finished loading')
-          //function called
-          setActiveNavLink();
 
           console.log(projects)
           // What is purpose of this function
@@ -73,8 +71,6 @@
           console.log(`Project1 details: ${projects.project1.details}`)
           console.log(`Project2 name: ${projects.project2.name}`)
           console.log(`Project2 details: ${projects.project2.details}`)
-          console.log(`Project3 name: ${projects.project3.name}`)
-          console.log(`Project3 details: ${projects.project3.details}`)
           // Projects for HTML
           if (document.title == 'Project') {
             // alert("On Project Page")
@@ -82,8 +78,8 @@
             document.getElementById('detail1').textContent = projects.project1.details
             document.getElementById('name2').textContent = projects.project2.name
             document.getElementById('detail2').textContent = projects.project2.details
-            document.getElementById('name3').textContent = projects.project3.name
-            document.getElementById('detail3').textContent = projects.project3.details
+            document.getElementById('name3').textContent = projects.project2.name
+            document.getElementById('detail3').textContent = projects.project2.details
           }
         }
       }
@@ -102,8 +98,6 @@
         if (this.readyState === 4) {
           aboutmedata = JSON.parse(this.responseText)
           console.log('Paragraph Data finished loading')
-          //function called
-          setActiveNavLink();
 
           // console.log(aboutmedat)
 
